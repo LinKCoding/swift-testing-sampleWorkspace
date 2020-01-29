@@ -22,7 +22,7 @@ let package = Package(
             name: "sampleWorkspace",
             dependencies: []),
         .testTarget(
-            name: "sampleWorkspaceTests",
+            name: "workspaceTests",
             dependencies: ["sampleWorkspace"]),
     ]
 )
